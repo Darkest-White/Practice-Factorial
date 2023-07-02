@@ -12,7 +12,8 @@ int fact(int a)
 	return a * fact(a - 1);
 }
 
+
 int main()
-{ 
+{
 	cout << fact(5) << endl;
 }
